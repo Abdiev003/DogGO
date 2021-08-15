@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+   
+
+}
+.doggo-color-main {
+    color: #F15A2D;
+}
+
+.doggo-color-sec {
+    color: #FF9146;
+}
+
+.doggo-color-fiv {
+    color: #742915;
+}
+
+.doggo-color-main-bg {
+    background-color: #F15A2D;
+}
+
+.doggo-color-thi {
+    color: #FFF3EC;
+}
+
+.doggo-color-sec-bg {
+    background-color: #FF9146;
+}
+
+.doggo-color-thi-bg {
+    background-color: #FFF3EC;
+}
+
+.doggo-color-fou-bg {
+    background-color: #FB9050;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.doggo-btn {
+    color: white;
+    font-size: 1.3em;
+    border-radius: 100px;
+    padding: 12px 36px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 505px) {
+    .doggo-btn {
+        font-size: 12px;
+    }
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+}
+
+h6, h5 {
+    line-height: 1.6;
+}
+
+b {
+    font-weight: 900;
+}
+
+.sec {
+    width: 100vw;
+    padding: 63px 0;
+}
+
+.hr-card {
+    height: 3px;
+    color: #FFF3EC;
+    background-color: #FFF3EC;
+    border: none;
+}
+
+.doggo-btn-scd {
+
+  color: white;
+  font-size: 1.3em;
+  padding: 12px 36px;
+}
+
+.btn-img-top {
+margin-top: -50px;
+}
+
+::placeholder {
+    color: rgba(238, 88, 55, 1);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgba(238, 88, 55, 1);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgba(238, 88, 55, 1);
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+.text-center {
+  width: 100%;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+
+.hidden-thing {
+    position: absolute;
+    left: 100%;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a:hover {
+    color: #742915;
+}
+::-moz-selection {
+    color: #fff;
+    background: rgba(238, 88, 55, 1);
+    text-shadow: none;
+  }
+  
+  ::selection {
+    color: #fff;
+    background: rgba(238, 88, 55, 1);
+    text-shadow: none;
+  }
+  
+  img::selection {
+    color: #fff;
+    background: transparent;
+  }
+  
+  img::-moz-selection {
+    color: #fff;
+    background: transparent;
+  }

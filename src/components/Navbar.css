@@ -1,0 +1,67 @@
+Link {
+    color: #FFF3EC !important;
+}
+
+.inactive {
+    color: #FFF3EC;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.active {
+    color: #FFF3EC;
+    text-shadow: 0 0 3px #FFF3EC, 0 0 5px #FFF3EC;
+    font-weight: 900;
+}
+
+.btn-nav{
+    border: none;
+    color: #F15A2D;
+    font-weight: 900;
+    background-color: #FFF3EC;
+    border-radius: 100px;
+    padding: 8px 16px;
+    font-size: 15px;
+    margin-right: 4px;
+}
+
+.scrolled{
+    background-color: dodgerblue !important;
+    transition: 0.3s;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=fff');
+}
+
+.align-center {
+    text-align:center;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .btn-nav {
+        background-color: #F15A2D;
+        color: #FFF3EC;
+    }
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-color {
+    background: #F15A2D;
+}
+
+.onscroll {
+    background:  rgba(238, 88, 55, 0.8);
+}
+
+.doggo-logo{
+    width: 150px;
+}

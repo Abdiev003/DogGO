@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.doggoapp.com/</loc>
+  <lastmod>2018-12-04T22:15:05+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.doggoapp.com/doggo-walker</loc>
+  <lastmod>2018-12-04T22:15:05+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.doggoapp.com/gezdirme-planla</loc>
+  <lastmod>2018-12-24T22:58:05+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.doggoapp.com/Kullanici-Sozlesmesi</loc>
+  <lastmod>2018-12-04T22:15:05+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.doggoapp.com/Gizlilik-Politikasi</loc>
+  <lastmod>2018-12-04T22:15:05+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.doggoapp.com/Iyzico-Alici-Sozlesmesi</loc>
+  <lastmod>2018-12-04T22:15:05+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.doggoapp.com/Iyzico-Satici-Sozlesmesi</loc>
+  <lastmod>2018-12-04T22:15:05+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
