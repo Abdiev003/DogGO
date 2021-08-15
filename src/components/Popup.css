@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #fff;
+  width: 1024px;
+  height: 470px;
+  top: 20%;
+  left: 22%;
+  z-index: 999;
+  border-radius: 25px;
+  display: flex;
+}
+
+.box {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  max-height: 90vh;
+  /* margin-top: calc(95vh - 85vh - 20px); */
+  border-radius: 4px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(27% - 30px);
+  top: calc(100vh - 77vh - 15px);
+  width: 14px;
+  height: 14px;
+  color: #f8745d;
+  line-height: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.popup-image {
+  width: 45%;
+  padding-top: 4rem;
+  padding-left: 3rem;
+  background-color: #feecd8;
+  padding-bottom: 5rem;
+}
+
+.popup-image::after {
+  transform: rotate(180deg);
+}
+
+.box-title {
+  font-size: 45px;
+  letter-spacing: 0px;
+  color: #f8745d;
+  font-weight: 700;
+  font-family: "Poppins";
+  margin-top: 3rem;
+}
+
+.box i {
+  background-image: url("../images/Check.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 13px;
+  background-size: cover;
+}
+
+.box-description {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  line-height: 35px;
+}
+
+.box-description div {
+  width: 16px;
+}
+
+.box-description span {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Nunito";
+}
+
+.box-btn {
+  margin-top: 0.8rem;
+  background-color: #f8745d;
+  text-align: center;
+  border-radius: 25px;
+  padding: 11px;
+  width: 374px;
+  filter: drop-shadow(-3.584px 9.336px 9px rgba(248, 116, 93, 0.5));
+  color: #fff;
+}
+
+.box-btn a {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Nunito";
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .popup-box {
+    width: 960px;
+    top: 25%;
+    left: 3%;
+  }
+  .close-icon {
+    right: calc(11% - 30px);
+    top: calc(100vh - 69vh - 15px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .popup-box {
+    width: 1024px;
+    top: 25%;
+    left: 22%;
+  }
+  .close-icon {
+    right: calc(28% - 30px);
+    top: calc(100vh - 70vh - 15px);
+  }
+}
